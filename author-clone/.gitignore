@@ -1,7 +1,9 @@
 .env
 __pycache__/
 *.pyc
-# 你的语料和生成的画像默认不提交(隐私 / 体积)。如想纳入版本管理可删掉下面两行。
+# 你的语料、截图和生成的画像默认不提交(隐私 / 体积)。如想纳入版本管理可删掉下面几行。
 articles/*
 !articles/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
 profile/thinking_profile.md
